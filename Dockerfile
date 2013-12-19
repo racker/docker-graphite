@@ -1,5 +1,5 @@
 FROM         ubuntu:12.04
-MAINTAINER   Silas Sewell "silas@sewell.org"
+MAINTAINER   Jay Faulkner "jay.faulkner@rackspace.com"
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
